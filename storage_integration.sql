@@ -1,0 +1,5 @@
+CREATE STORAGE INTEGRATION snow_pipe
+      TYPE = EXTERNAL_STAGE
+      STORAGE_PROVIDER = 'GCS'
+      ENABLED = TRUE
+      STORAGE_ALLOWED_LOCATIONS = ('gcs://<location>/');
